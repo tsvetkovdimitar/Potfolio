@@ -1,5 +1,5 @@
 /*Making the top section of the page more responsive*/
-.top-section{
+.top-section-left-part{
 
     float: right;
     position:relative;
@@ -13,5 +13,21 @@
     position: relative;
     float: inherit;
 
+
+}
+.pitch-text{
+
+    color: black;
+    line-height: 1.6;
+    text-indent: 50px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1.225em;
+    font-family: "Courier New", Courier, monospace;
+
+}
+mark{
+
+    color: deeppink;
 
 }
