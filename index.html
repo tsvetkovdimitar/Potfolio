@@ -10,12 +10,11 @@
     </head>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
             <a class="navbar-brand"><img src="images/logo/search.png" width="42" height="42"></a>
-            <span class="navbar-text mr-2">Dimitar Tsvetkov</span>
             <a class="navbar-brand navbar-nav ml-auto" href="#">Portfolio</a>
             <button onclick="toggleHamburgerButtonFunction()" class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapse_target">
+            <div class="collapse navbar-collapse table-hover" id="collapse_target">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link mr-5" href="#">Education</a>
@@ -33,8 +32,10 @@
             </div>
         </nav>
         <body>
+        <p id="my-name" class="my-name-at-the-top-left-of-the-page pr-xl-5 pt-2 pl-sm-3"
+           onmouseover="changeText(this,'A Software Developer')" onmouseout="changeText(this,'I am Dimitar')">I am Dimitar</p>
             <div class="container-fluid">
-                <div class="row mt-2" style="position:relative; z-index:1;">
+                    <div class="row" style="position:relative; z-index:1;">
                     <div class="top-section-left-part pl-2 pr-md-5 pr-xl-5 pt-2 pb-2 col-sm-4 col-sm-offset-3" style="background-color:lightslategrey;">
                         <picture class="mx-auto">
                             <img src="images/profile/dimitar.png" class="pl-2 shadow-lg p-2 bg-white rounded-right" alt="dimitar-photo">
@@ -42,30 +43,27 @@
                     </div>
                     <div class="pr-md-5 pr-xl-5 pt-xl-5 pt-md-5 col-sm-8" style="background-color:lightslategrey;">
                         <div class="pitch pb-sm-4 pr-xl-5 pt-xl-5 pt-md-5 pl-sm-5 ml-sm-5 text-sm-righ bd-highlight">
-                            <p class="pitch-text ml-sm-5 pb-sm-5 pl-sm-5 pr-xl-5">
-                                Hi, my name is <u><b>Dimitar</b></u>.
-                                    <mark>I studied Software Development at National College of Ireland and Technological University Dublin</mark>.
-                                    While studying I have broaden and strengthened my knowledge in
-                                    <mark>Java</mark>,
-                                    <mark>Python</mark>,
-                                    <mark>JavaScript</mark>,
-                                    <mark>SQL</mark>,
-                                    <mark>HTML</mark>,
-                                    <mark>CSS</mark>,
-                                    <mark>Ruby on Rails</mark>,
-                                    <mark>Hibernate/JPA</mark>,
-                                    <mark>Maven</mark>,
-                                    <mark>EJB</mark>,
-                                    <mark>JBoss(WildFly)</mark>,
-                                    <mark>REST</mark>,
-                                    <mark>MySQL</mark>,
-                                    <mark>GIT</mark>,
-                                    <mark>Android</mark>,
-                                    <mark>Selenium Webdriver</mark>,
-                                    <mark>Networks</mark> and
-                                    <mark>Linux</mark>. I am Looking for a challenging opportunity to continue learning in a professional environment and
-                                    gain valuable experience as a Software Developer.
-                            </p>
+                                <p class="pitch-text ml-sm-5 pb-sm-5 pl-sm-5 pr-xl-5" onmouseover="scaleUp(this,'25px')" onmouseout="scaleUp(this,'20px')">
+                                    <u><b>I studied Software Development at National College of Ireland and Technological University Dublin.</b></u>
+                                        While studying I have broaden and strengthened my knowledge in
+                                        <u><b>Java,
+                                        Python,
+                                        JavaScript,
+                                        SQL,
+                                        HTML,
+                                        CSS,
+                                        Ruby on Rails,
+                                        Hibernate/JPA,
+                                        Maven,
+                                        EJB,
+                                        JBoss(WildFly),
+                                        REST,
+                                        MySQL,
+                                        GIT,
+                                        Android, Selenium Webdriver Networks and Linux.</b></u>,
+                                        I am Looking for a challenging opportunity to continue learning in a professional environment and
+                                        gain valuable experience as a Software Developer.
+                                </p>
                         </div>
                     </div>
                 </div>

@@ -12,8 +12,6 @@
 {
     position: relative;
     float: inherit;
-
-
 }
 .pitch-text{
 
@@ -21,13 +19,12 @@
     line-height: 1.6;
     text-indent: 50px;
     text-align: justify;
-    font-style: italic;
     font-size: 1.225em;
-    font-family: "Courier New", Courier, monospace;
 
 }
-mark{
+.my-name-at-the-top-left-of-the-page{
 
-    color: deeppink;
+    font-size: 1.325em;
+    text-align: center;
 
 }
