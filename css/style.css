@@ -1,0 +1,17 @@
+/*Making the top section of the page more responsive*/
+.top-section{
+
+    float: right;
+    position:relative;
+    z-index:1;
+
+}
+
+/*Text on the left of my profile picture*/
+.pitch
+{
+    position: relative;
+    float: inherit;
+
+
+}
