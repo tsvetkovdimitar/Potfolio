@@ -39,3 +39,6 @@
     list-style-position:inside;
     border: 1px solid black;
 }
+ins:hover, ins:active {
+    background-color: darkslategrey;
+}
