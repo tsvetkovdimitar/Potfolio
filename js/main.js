@@ -22,7 +22,3 @@ function changeText(obj, text) {
 
         obj.innerText = text;
 }
-
-// function scaleUp(obj, size) {
-//     obj.style.fontSize = size;
-// }
