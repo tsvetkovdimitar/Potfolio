@@ -42,3 +42,6 @@
 ins:hover, ins:active {
     background-color: darkslategrey;
 }
+
+.pitch-text:hover { transform: scale(1.1);
+}
