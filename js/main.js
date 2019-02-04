@@ -5,7 +5,7 @@ function toggleHamburgerButtonFunction() {
     document.getElementById("collapse_target").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+// Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
     if (!event.target.matches('.navbar-toggler')) {
         var dropdowns = document.getElementsByClassName("navbar-collapse");
@@ -18,7 +18,8 @@ window.onclick = function(event) {
         }
     }
 }
+
 function changeText(obj, text) {
 
-        obj.innerText = text;
+    obj.innerText = text;
 }

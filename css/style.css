@@ -28,3 +28,14 @@
     text-align: center;
 
 }
+.dropdown-menu-items{
+
+    position: relative;
+    left: 50%;
+    right: 50%;
+
+}
+.borderlist-in-dropdown-menu {
+    list-style-position:inside;
+    border: 1px solid black;
+}
