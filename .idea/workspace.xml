@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c3169a-9a3c-4edb-970c-fd89c8d92d0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/agenda.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/photograph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/smartphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/smiley.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/arroba.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/circle-smartphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/email-circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/email-envelope.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/envelope-email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/promotion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/telephone.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts/chat-bubble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts/gmail-bold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts/gmail-circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts/gmail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts/photograph.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/contacts/smiley.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -29,20 +38,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="99" column="72" lean-forward="false" selection-start-line="99" selection-start-column="72" selection-end-line="99" selection-end-column="72" />
+            <state relative-caret-position="493">
+              <caret line="98" column="76" lean-forward="false" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#6742#6748#0" expanded="true" />
-                <element signature="e#6748#6754#0" expanded="true" />
-                <element signature="e#6754#6760#0" expanded="true" />
-                <element signature="e#6886#6892#0" expanded="true" />
-                <element signature="e#6892#6898#0" expanded="true" />
-                <element signature="e#6898#6904#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arroba.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/contacts/arroba.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -64,16 +74,6 @@
               <folding>
                 <element signature="n#!!doc;n#toggleHamburgerButtonFunction#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -379,12 +379,12 @@
       <workItem from="1549124032288" duration="29235000" />
       <workItem from="1549187452037" duration="40083000" />
       <workItem from="1549302224458" duration="25559000" />
-      <workItem from="1549380655576" duration="9548000" />
+      <workItem from="1549380655576" duration="11341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106643000" />
+    <option name="totallyTimeSpent" value="108436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,12 +454,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-            <element signature="e#6754#6760#0" expanded="true" />
-            <element signature="e#6886#6892#0" expanded="true" />
-            <element signature="e#6892#6898#0" expanded="true" />
-            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,12 +492,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-            <element signature="e#6754#6760#0" expanded="true" />
-            <element signature="e#6886#6892#0" expanded="true" />
-            <element signature="e#6892#6898#0" expanded="true" />
-            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,12 +530,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-            <element signature="e#6754#6760#0" expanded="true" />
-            <element signature="e#6886#6892#0" expanded="true" />
-            <element signature="e#6892#6898#0" expanded="true" />
-            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -570,12 +552,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-            <element signature="e#6754#6760#0" expanded="true" />
-            <element signature="e#6886#6892#0" expanded="true" />
-            <element signature="e#6892#6898#0" expanded="true" />
-            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -588,12 +564,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-            <element signature="e#6754#6760#0" expanded="true" />
-            <element signature="e#6886#6892#0" expanded="true" />
-            <element signature="e#6892#6898#0" expanded="true" />
-            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,20 +647,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/chat-bubble.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/iphone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/photograph.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/gmail-circle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/mail.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/mails.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/promotion.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/smartphone-circle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/telephone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/email-envelope.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/circle-smartphone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/email.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/email-circle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/envelope-email.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/smiley.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/smartphone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/agenda.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/contacts/arroba.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="99" column="72" lean-forward="false" selection-start-line="99" selection-start-column="72" selection-end-line="99" selection-end-column="72" />
+        <state relative-caret-position="493">
+          <caret line="98" column="76" lean-forward="false" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6742#6748#0" expanded="true" />
-            <element signature="e#6748#6754#0" expanded="true" />
-            <element signature="e#6754#6760#0" expanded="true" />
-            <element signature="e#6886#6892#0" expanded="true" />
-            <element signature="e#6892#6898#0" expanded="true" />
-            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
