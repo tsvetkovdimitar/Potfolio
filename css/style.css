@@ -57,12 +57,26 @@ ins:hover, ins:active {
     margin-top: 200%;
 
 }
-#Education span, #Contact span{
+#Education span{
 
     padding: 5px 15px 5px 15px;
 
 }
+
+#Contact span{
+
+    padding: 5px 15px 5px 15px;
+
+}
+
 #Education hr{
+
+    border-width: 2px;
+    margin-top: 7px;
+
+}
+
+#Contact hr{
 
     border-width: 2px;
     margin-top: 7px;
