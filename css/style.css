@@ -57,7 +57,7 @@ ins:hover, ins:active {
     margin-top: 200%;
 
 }
-#Education span{
+#Education span, #Contact span{
 
     padding: 5px 15px 5px 15px;
 
