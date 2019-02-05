@@ -82,3 +82,11 @@ ins:hover, ins:active {
     margin-top: 7px;
 
 }
+
+.contact-text{
+
+    text-align: justify;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
