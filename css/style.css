@@ -22,6 +22,15 @@
     font-size: 1.225em;
 
 }
+.education-text{
+
+    color: black;
+    line-height: 1.6;
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 1.225em;
+
+}
 .my-name-at-the-top-left-of-the-page{
 
     font-size: 1.325em;
@@ -36,9 +45,26 @@
 
 }
 .borderlist-in-dropdown-menu {
+
     list-style-position:inside;
     border: 1px solid black;
 }
 ins:hover, ins:active {
     background-color: darkslategrey;
+}
+£Education{
+
+    margin-top: 200%;
+
+}
+#Education span{
+
+    padding: 5px 15px 5px 15px;
+
+}
+#Education hr{
+
+    border-width: 2px;
+    margin-top: 7px;
+
 }

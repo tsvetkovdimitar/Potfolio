@@ -17,7 +17,7 @@
             <div class="dropdown-content navbar-collapse collapse navbar-toggleable-xs" id="collapse_target">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="dropdown-menu-items nav-link mr-5" href="#"><ins>Education</ins></a>
+                        <a class="dropdown-menu-items nav-link mr-5" href="#Education"><ins>Education</ins></a>
                     </li>
                     <li class="nav-item">
                         <a class="dropdown-menu-items nav-link mr-5" href="#"><ins>Experience</ins></a>
@@ -31,10 +31,10 @@
                 </ul>
             </div>
         </nav>
-        <body>
+        <body data-spy="scroll" data-target=".navbar">
         <p id="my-name" class="my-name-at-the-top-left-of-the-page pr-xl-5 pt-2 pl-sm-3"
            onmouseover="changeText(this,'A Software Developer')" onmouseout="changeText(this,'I am Dimitar')">I am Dimitar</p>
-            <div class="container-fluid">
+            <div class="container-fluid mb-5">
                     <div class="row pb-2" style="position:relative; z-index:1;">
                         <div class="top-section-left-part pl-1 pr-md-5 pr-xl-5 pt-2 pb-2 col-sm-4 col-sm-offset-3" style="background-color:lightslategrey;">
                             <picture class="mx-auto">
@@ -68,7 +68,31 @@
                     </div>
                 </div>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <div id="Education" class="mt-5 pr-3">
+                <div class="row bg-light">
+                    <div class="pr-5 pl-5 pl-5 col">
+                        <section class="mt-5">
+                            <span class="bg-danger text-white text-justify">Education :</span><hr class="bg-danger">
+                            <h4 class="text-justify">2016 – 2017</h4>
+                            <h5 class="text-justify">MSc Applied Software Technology, Technological University Dublin, Ireland.</h5>
+                            <h5>Modules: </h5>
+                            <p class="lead text-justify"><u><b>Semester One:</b></u> Object Oriented Software
+                                    Development, Software Design and Testing, Data Architectures and Database Systems, Computer Networks, Technology Fundamentals.</p>
+                                <p class="lead text-justify"><u><b>Semester Two:</b></u> Distributed Systems and Security, System Administration and Virtualization,
+                                    Web Technologies, Computational Math, Self-Management and Teamwork, Tools and Technologies.</p>
+                            <h4 class="text-justify">2015 – 2016</h4>
+                            <h5 class="text-justify">Higher Diploma Software Development, National College of Ireland, Dublin.</h5>
+                            <h5>Modules:</h5>
+                                <p class="lead text-justify">
+                                    Object-Oriented Software Engineering, Software Development, Web Design,
+                                    Computer Architecture Operating Systems and Networks, Server-Side Development,</p>
+                                <p class="lead text-justify">Advanced Programming, Data Structures and Algorithms, Web Services and API Development,
+                                    Introduction to Databases, Final Project.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><hr class="bg-secondary">
             <script src="js/bootstrap.min.js"></script>
             <script src="js/main.js"></script>
         </body>
