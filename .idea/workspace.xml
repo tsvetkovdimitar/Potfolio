@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c3169a-9a3c-4edb-970c-fd89c8d92d0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/agenda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/photograph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/smartphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/contacts/smiley.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,14 +29,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="94" column="42" lean-forward="false" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+            <state relative-caret-position="514">
+              <caret line="99" column="72" lean-forward="false" selection-start-line="99" selection-start-column="72" selection-end-line="99" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-                <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+                <element signature="e#6742#6748#0" expanded="true" />
+                <element signature="e#6748#6754#0" expanded="true" />
+                <element signature="e#6754#6760#0" expanded="true" />
+                <element signature="e#6886#6892#0" expanded="true" />
+                <element signature="e#6892#6898#0" expanded="true" />
+                <element signature="e#6898#6904#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +103,8 @@
         <option value="$PROJECT_DIR$/js/hamburegr_menu.js" />
         <option value="$PROJECT_DIR$/misc.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -155,6 +164,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -170,14 +261,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dimitar\WebstormProjects\portfolio\images\contacts" />
+      <recent name="C:\Users\dimitar\WebstormProjects\portfolio\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dimitar\WebstormProjects\portfolio\images\contacts" />
+      <recent name="C:\Users\dimitar\WebstormProjects\portfolio\images" />
       <recent name="C:\Users\dimitar\WebstormProjects\portfolio" />
       <recent name="C:\Users\dimitar\WebstormProjects\portfolio\images\logo" />
       <recent name="C:\Users\dimitar\WebstormProjects\portfolio\css" />
-      <recent name="C:\Users\dimitar\WebstormProjects\portfolio\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dimitar\WebstormProjects\portfolio\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,12 +379,12 @@
       <workItem from="1549124032288" duration="29235000" />
       <workItem from="1549187452037" duration="40083000" />
       <workItem from="1549302224458" duration="25559000" />
-      <workItem from="1549380655576" duration="5091000" />
+      <workItem from="1549380655576" duration="9548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102186000" />
+    <option name="totallyTimeSpent" value="106643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +399,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15989584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -361,8 +454,12 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-            <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+            <element signature="e#6742#6748#0" expanded="true" />
+            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#6754#6760#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#6892#6898#0" expanded="true" />
+            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -401,8 +498,12 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-            <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+            <element signature="e#6742#6748#0" expanded="true" />
+            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#6754#6760#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#6892#6898#0" expanded="true" />
+            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -441,8 +542,12 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-            <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+            <element signature="e#6742#6748#0" expanded="true" />
+            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#6754#6760#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#6892#6898#0" expanded="true" />
+            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -465,8 +570,12 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-            <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+            <element signature="e#6742#6748#0" expanded="true" />
+            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#6754#6760#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#6892#6898#0" expanded="true" />
+            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -479,8 +588,12 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-            <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+            <element signature="e#6742#6748#0" expanded="true" />
+            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#6754#6760#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#6892#6898#0" expanded="true" />
+            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,14 +679,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="94" column="42" lean-forward="false" selection-start-line="94" selection-start-column="42" selection-end-line="94" selection-end-column="42" />
+        <state relative-caret-position="514">
+          <caret line="99" column="72" lean-forward="false" selection-start-line="99" selection-start-column="72" selection-end-line="99" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1549387178791" expanded="true" signature="282:342" ph="..." />
-            <marker date="1549387178791" expanded="true" signature="6802:6845" ph="..." />
+            <element signature="e#6742#6748#0" expanded="true" />
+            <element signature="e#6748#6754#0" expanded="true" />
+            <element signature="e#6754#6760#0" expanded="true" />
+            <element signature="e#6886#6892#0" expanded="true" />
+            <element signature="e#6892#6898#0" expanded="true" />
+            <element signature="e#6898#6904#0" expanded="true" />
           </folding>
         </state>
       </provider>
