@@ -8,10 +8,10 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <nav class="navbar container-fluid navbar-expand-md navbar-dark bg-dark sticky-top">
             <a class="navbar-brand"><img src="images/logo/search.png" width="42" height="42"></a>
             <h6 class="navbar-brand navbar-nav ml-auto" href="#">Portfolio</h6>
-            <button class="navbar-toggler" data-toggle="collapse" onclick="toggleHamburgerButtonFunction()" data-target="#collapse_target">
+            <button type="button" class="navbar-toggler navbar-toggle" data-toggle="collapse" data-target="#collapse_target">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="dropdown-content navbar-collapse collapse navbar-toggleable-xs" id="collapse_target">
@@ -35,12 +35,12 @@
         <p id="my-name" class="my-name-at-the-top-left-of-the-page pr-xl-5 pt-2 pl-sm-3"
            onmouseover="changeText(this,'A Software Developer')" onmouseout="changeText(this,'I am Dimitar')">I am Dimitar</p>
             <div class="container-fluid">
-                    <div class="row" style="position:relative; z-index:1;">
-                    <div class="top-section-left-part pl-2 pr-md-5 pr-xl-5 pt-2 pb-2 col-sm-4 col-sm-offset-3" style="background-color:lightslategrey;">
-                        <picture class="mx-auto">
-                            <img src="images/profile/dimitar.png" class="pl-2 shadow-lg p-2 bg-white rounded-right" alt="dimitar-photo">
-                        </picture>
-                    </div>
+                    <div class="row pb-2" style="position:relative; z-index:1;">
+                        <div class="top-section-left-part pl-2 pr-md-5 pr-xl-5 pt-2 pb-2 col-sm-4 col-sm-offset-3" style="background-color:lightslategrey;">
+                            <picture class="mx-auto">
+                                <img src="images/profile/dimitar.png" class="pl-2 shadow-lg p-2 bg-white rounded-right" alt="dimitar-photo">
+                            </picture>
+                        </div>
                     <div class="pr-md-5 pr-xl-5 pt-xl-5 pt-md-5 col-sm-8" style="background-color:lightslategrey;">
                         <div class="pitch pb-sm-4 pr-xl-5 pt-xl-5 pt-md-5 pl-sm-5 ml-sm-5 text-sm-righ bd-highlight">
                                 <p class="pitch-text ml-sm-5 pb-sm-5 pl-sm-5 pr-xl-5 pt-xl-2" onmouseover="scaleUp(this,'25px')" onmouseout="scaleUp(this,'20px')">
@@ -68,6 +68,7 @@
                     </div>
                 </div>
             </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/main.js"></script>
         </body>
