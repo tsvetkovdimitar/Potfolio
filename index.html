@@ -23,7 +23,7 @@
                         <a class="dropdown-menu-items nav-link mr-5" href="#"><ins>Experience</ins></a>
                     </li>
                     <li class="nav-item">
-                        <a class="dropdown-menu-items nav-link mr-5" href="#"><ins>Projects</ins></a>
+                        <a class="dropdown-menu-items nav-link mr-5" href="#Projects"><ins>Projects</ins></a>
                     </li>
                     <li class="nav-item">
                         <a class="dropdown-menu-items nav-link mr-5" href="#Contact"><ins>Contact</ins></a>
@@ -43,34 +43,21 @@
                         </div>
                     <div class="pr-md-5 pr-xl-5 pt-xl-5 pt-md-5 col-sm-8" style="background-color:lightslategrey;">
                         <div class="pitch pb-sm-4 pr-xl-5 pt-xl-5 pt-md-5 pl-sm-5 ml-sm-5 text-sm-righ bd-highlight">
-                                <p class="pitch-text ml-sm-5 pb-sm-5 pl-sm-5 pr-xl-5 pt-xl-2">
-                                        <b>I studied Software Development at National College of Ireland and Technological University Dublin.</b>
-                                        While studying I have broaden and strengthened my knowledge in
-                                        <b>Java,
-                                        Python,
-                                        JavaScript,
-                                        SQL,
-                                        HTML,
-                                        CSS,
-                                        Ruby on Rails,
-                                        Hibernate/JPA,
-                                        Maven,
-                                        EJB,
-                                        JBoss(WildFly),
-                                        REST,
-                                        MySQL,
-                                        GIT,
-                                        Android, Selenium Webdriver Networks and Linux.</b>,
-                                        I am Looking for a challenging opportunity to continue learning in a professional environment and
-                                        gain valuable experience as a Software Developer.
-                                </p>
+                            <p class="pitch-text ml-sm-5 pb-sm-5 pl-sm-5 pr-xl-5 pt-xl-2">
+                                <b>I studied Software Development at National College of Ireland and Technological University Dublin.</b>
+                                While studying I have broaden and strengthened my knowledge in
+                                <b>Java, Python, JavaScript, SQL, HTML, CSS, Ruby on Rails, Hibernate/JPA,
+                                    Maven, EJB, JBoss(WildFly), REST, MySQL, GIT, Android, Selenium Webdriver Networks and Linux.</b>,
+                                I am Looking for a challenging opportunity to continue learning in a professional environment and
+                                gain valuable experience as a Software Developer.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="Education" class="container-fluid mt-5 pr-3 pl-3">
                 <div class="row bg-light">
-                    <div class="pr-4 pl-4 col">
+                    <div class="top-section pr-3 pl-3 col">
                         <section class="mt-5">
                             <span class="bg-danger text-white text-justify">Education :</span><hr class="bg-danger">
                             <h4 class="text-justify">2016 – 2017</h4>
@@ -92,10 +79,31 @@
                     </div>
                 </div>
             </div>
-            <div id="Contact" class="pb-5 pt-5 mt-5 pr-3 pl-3 mb-0 bg-secondary">
+            <div id="Projects" class="container-fluid pb-5 pt-5 mt-5 pr-3 pl-3 mb-5 bg-info">
+                <span class="bg-danger text-white text-justify">Projects :</span><hr class="bg-danger">
+                <div class="pb-3 row ptojects">
+                    <div class="container-fluid">
+                        <span>National College of Ireland</span>
+                        <ul style="list-style-type:circle;">
+                            <li>Java: RESTful bank service web API using NetBeans, Glassfish and MySQL Workbench.</li>
+                            <li>Designing a graphical model of an Object-Oriented Software System using UML.</li>
+                            <li>Develop responsive fully functional e-commerce web application using Cloud9, Ruby on Rails and Bitbucket.</li>
+                        </ul>
+                    </div>
+                    <div class="container-fluid">
+                        <span>Technological University Dublin</span>
+                        <ul style="list-style-type:circle;">
+                            <li>Java: Program that allows the user to draw 5 geometric figures on the screen.</li>
+                            <li>Java: RXN Chain reaction game.</li>
+                            <li>Java2EE: LTE monitoring system (Group project). Using: Java EE, JPA/ Hibernate, EJB, REST, CRUD, Maven, JBoss, SQL, IntelliJ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="Contact" class="container-fluid pb-5 pt-5 mt-5 pr-3 pl-3 mb-0 bg-secondary">
                     <span class="bg-danger text-white text-justify">Contact :</span><hr class="bg-danger">
-                    <div class="pb-3 row contact-information bg-secondary">
-                        <div class ="col-md-6 email-address-and-phone-number pl-0 pr-0 bg-secondary">
+                    <div class="pb-3 row contact-information">
+                        <div class ="col-md-6 email-address-and-phone-number pb-4 pl-0 pr-0">
                             <p class="pt-4 pl-0 pr-0 contact-text text-justify">
                                 <span>
                                     <img src="images/contacts/telephone.png" width="42" height="42">
@@ -124,21 +132,24 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6 contact-form bg-secondary">
-                            <h5>Write something: </h5>
+                        <div class="col-md-6 contact-form">
+                            <h5>Or message me: </h5>
                             <form id="contact-form" method="post" class="form-group"action="mailto:tsvetkovdimitar@gmail.com" method="post" enctype="text/plain">
-                                <input class="form-control" type="text" name="name" id="name" placeholder="Your name"><br>
-                                <input class="form-control" type="email" name="name" id="email" placeholder="Your email"><br><br>
+                                <input class="form-control" type="text" name="name" id="name" placeholder="* Your name:" required><br>
+                                <input class="form-control" type="email" name="name" id="email" placeholder="* Your email" require><br><br>
                                 <input class="form-control" type="text" id="sub" name="subject" placeholder="The subject"><br>
-                                <textarea class="form-control" type="text" id="text-area" name="text" rows="5" cols="15" placeholder="Your message"></textarea>
+                                <textarea class="form-control" type="text" id="text-area" name="message" rows="5" cols="15" placeholder="*Your message" required></textarea>
                             </form>
                             <button class="btn btn-block btn-dark ">Send</button>
                         </div>
                     </div>
             </div>
-            <footer id="Footer" class="pt-0 bg-dark text-white">
+            <footer id="Footer" class="pt-0 pb-0 bg-dark text-white">
                 <div class="ml-0 pl-0 mr-0 pr-0">
-                        <p class="pb-3">&#169;</p>
+                    <p class="pb-3"></p>
+                </div>
+                <div class="pt-3 ml-0 pl-0 mr-0 pr-0">
+                    <p class="pt-3"></p>
                 </div>
             </footer>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
