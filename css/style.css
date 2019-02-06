@@ -23,6 +23,10 @@
 
 }
 
+p, li {
+    word-spacing: 2px;
+}
+
 li{
 
     color: black;
@@ -77,9 +81,29 @@ ins:hover, ins:active {
     position: fixed;
     width: 100%;
     bottom: 0;
-    left: 0;
     height: 60px;
 
+}
+
+#button_to_go_to_top_of_the_page {
+
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
 
 *:focus {

@@ -24,9 +24,18 @@ function changeText(obj, text) {
     obj.innerText = text;
 }
 
-var frmvalidator  = new Validator("contactform");
-frmvalidator.addValidation("name","req","Please provide your name");
-frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("message","req","Please provide your message");
-frmvalidator.addValidation("email","email", "Please enter a valid email address");
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("button_to_go_to_top_of_the_page").style.display = "block";
+    } else {
+        document.getElementById("button_to_go_to_top_of_the_page").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
