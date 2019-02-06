@@ -68,7 +68,7 @@
                     </div>
                 </div>
             </div>
-            <div id="Education" class="mt-5 pr-3 pl-3">
+            <div id="Education" class="container-fluid mt-5 pr-3 pl-3">
                 <div class="row bg-light">
                     <div class="pr-4 pl-4 col">
                         <section class="mt-5">
@@ -92,16 +92,39 @@
                     </div>
                 </div>
             </div>
-            <div id="Contact" class="pt-5 mt-5 pr-4 pl-4 bg-secondary">
-                <span class="bg-danger text-white text-justify">Contact :</span><hr class="bg-danger">
-                    <div class="contact-form pl-0 pr-0">
-                        <div class ="address pl-0 pr-0">
-                            <p class="pl-0 pr-0 contact-text text-justify"><span><img src="images/contacts/telephone.png" width="42" height="42"></span>+353 831 677 209</p>
-                            <p class="pl-0 pr-0 contact-text text-justify"><span><img src="images/contacts/arroba.png" width="42" height="42"></span>tsvetkovdimitar@gmail.com</p>
+            <div id="Contact" class="pb-5 pt-5 mt-5 pr-3 pl-3 mb-0 bg-secondary">
+                    <span class="bg-danger text-white text-justify">Contact :</span><hr class="bg-danger">
+                    <div class="row contact-information bg-secondary">
+                        <div class ="col-md-6 email-address-and-phone-number pl-0 pr-0 bg-secondary">
+                            <p class="pt-4 pl-0 pr-0 contact-text text-justify">
+                                <span>
+                                    <img src="images/contacts/telephone.png" width="42" height="42">
+                                </span>+353 831 677 209
+                            </p>
+                            <p class="pt-3 pl-0 pr-0 contact-text text-justify">
+                                <span>
+                                    <img src="images/contacts/arroba.png" width="42" height="42">
+                                </span>tsvetkovdimitar@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-md-6 contact-form bg-secondary">
+                            <h5>Write something: </h5>
+                            <form id="contact-form" method="post" class="form-group" action="">
+                                <input class="form-control" type="text" name="name" id="name" placeholder="Your name"><br>
+                                <input class="form-control" type="email" name="name" id="email" placeholder="Your email"><br><br>
+                                <input class="form-control" type="text" id="sub" name="subject" placeholder="The subject"><br>
+                                <textarea class="form-control" type="text" id="text-area" name="text" rows="5" cols="15" placeholder="Your message"></textarea>
+                            </form>
+                            <button class="btn btn-block btn-dark ">Send</button>
                         </div>
                     </div>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><hr class="bg-secondary">
+            <footer id="Footer" class="pt-0 bg-dark text-white">
+                <div class="ml-0 pl-0 mr-0 pr-0">
+                        <p class="pb-3">&#169;</p>
+                </div>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/main.js"></script>
         </body>

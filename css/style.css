@@ -83,10 +83,12 @@ ins:hover, ins:active {
 
 }
 
-.contact-text{
+#Footer {
 
-    text-align: justify;
-    overflow: hidden;
-    white-space: nowrap;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 40px;
 
 }
