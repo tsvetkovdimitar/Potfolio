@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1c3169a-9a3c-4edb-970c-fd89c8d92d0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/facebook-circular-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/github-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/linked-in-square-button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/linkedin-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/social/social-github-circular-button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+            <state relative-caret-position="220">
+              <caret line="125" column="30" lean-forward="true" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -324,12 +318,12 @@
       <workItem from="1549124032288" duration="29235000" />
       <workItem from="1549187452037" duration="40083000" />
       <workItem from="1549302224458" duration="25559000" />
-      <workItem from="1549380655576" duration="31558000" />
+      <workItem from="1549380655576" duration="31903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128653000" />
+    <option name="totallyTimeSpent" value="128998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,7 +335,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13020833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -715,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="123" column="36" lean-forward="true" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+        <state relative-caret-position="220">
+          <caret line="125" column="30" lean-forward="true" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
