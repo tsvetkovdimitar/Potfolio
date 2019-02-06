@@ -20,7 +20,7 @@
                         <a class="dropdown-menu-items nav-link mr-5" href="#Education"><ins>Education</ins></a>
                     </li>
                     <li class="nav-item">
-                        <a class="dropdown-menu-items nav-link mr-5" href="#"><ins>Experience</ins></a>
+                        <a class="dropdown-menu-items nav-link mr-5" href="#Experience"><ins>Experience</ins></a>
                     </li>
                     <li class="nav-item">
                         <a class="dropdown-menu-items nav-link mr-5" href="#Projects"><ins>Projects</ins></a>
@@ -32,8 +32,10 @@
             </div>
         </nav>
         <body data-spy="scroll" data-target=".navbar">
+        <div class="container-fluid">
         <p id="my-name" class="my-name-at-the-top-left-of-the-page pr-xl-5 pt-2 pl-sm-3"
            onmouseover="changeText(this,'A Software Developer')" onmouseout="changeText(this,'I am Dimitar')">I am Dimitar</p>
+        </div>
             <div class="container-fluid mb-5">
                     <div class="row pb-2" style="position:relative; z-index:1;">
                         <div class="top-section-left-part pl-1 pr-md-5 pr-xl-5 pt-2 pb-2 col-sm-4 col-sm-offset-3" style="background-color:lightslategrey;">
@@ -56,26 +58,49 @@
                 </div>
             </div>
             <div id="Education" class="container-fluid mt-5 pr-3 pl-3">
-                <div class="row bg-light">
-                    <div class="top-section pr-3 pl-3 col">
+                <div class="row bg-info">
+                    <div class="top-section pb-5 pr-3 pl-3 col">
                         <section class="mt-5">
                             <span class="bg-danger text-white text-justify">Education :</span><hr class="bg-danger">
-                            <h4 class="text-justify">2016 – 2017</h4>
-                            <h5 class="text-justify">MSc Applied Software Technology, Technological University Dublin, Ireland.</h5>
-                            <h5>Modules: </h5>
-                            <p class="lead text-justify"><u><b>Semester One:</b></u> Object Oriented Software
-                                    Development, Software Design and Testing, Data Architectures and Database Systems, Computer Networks, Technology Fundamentals.</p>
-                                <p class="lead text-justify"><u><b>Semester Two:</b></u> Distributed Systems and Security, System Administration and Virtualization,
-                                    Web Technologies, Computational Math, Self-Management and Teamwork, Tools and Technologies.</p>
-                            <h4 class="text-justify">2015 – 2016</h4>
-                            <h5 class="text-justify">Higher Diploma Software Development, National College of Ireland, Dublin.</h5>
-                            <h5>Modules:</h5>
-                                <p class="lead text-justify">
-                                    Object-Oriented Software Engineering, Software Development, Web Design,
-                                    Computer Architecture Operating Systems and Networks, Server-Side Development,</p>
-                                <p class="lead text-justify">Advanced Programming, Data Structures and Algorithms, Web Services and API Development,
-                                    Introduction to Databases, Final Project.</p>
+                            <h6 class="text-justify"><b>2016 – 2017</b></h6>
+                            <h6 class="text-justify"><b>MSc Applied Software Technology, Technological University Dublin, Ireland.</b></h6>
+                            <h6><b>Modules:</b></h6>
+                                <ul style="list-style-type:circle;">
+                                    <li>Semester One: Object Oriented Software
+                                        Development, Software Design and Testing, Data Architectures and Database Systems, Computer Networks, Technology Fundamentals.</li>
+                                    <li>Semester Two: Distributed Systems and Security, System Administration and Virtualization,
+                                        Web Technologies, Computational Math, Self-Management and Teamwork, Tools and Technologies.</li>
+                                </ul>
+                            <h6 class="text-justify"><b>2015 – 2016</b></h6>
+                            <h6 class="text-justify"><b>Higher Diploma Software Development, National College of Ireland, Dublin.</b>></h6>
+                            <h6><b>Modules:</b></h6>
+                                <ul style="list-style-type:circle;">
+                                    <li>Object-Oriented Software Engineering, Software Development, Web Design,
+                                        Computer Architecture Operating Systems and Networks, Server-Side Development.
+                                        Advanced Programming, Data Structures and Algorithms, Web Services and API Development, Introduction to Databases, Final Project.
+                                    </li>
+                                </ul>
                         </section>
+                    </div>
+                </div>
+            </div>
+            <div id="Experience" class="container-fluid pb-5 pt-5 mt-5 pr-3 pl-3 mb-5 bg-secondary">
+                <span class="bg-danger text-white text-justify">Experience :</span><hr class="bg-danger">
+                <div class="row ptojects">
+                    <div class="container-fluid">
+                        <h6><b>October 2017 – December 2018</b></h6><br>
+                        </h6><b>Technical Support Specialist – Google Nest at Voxpro Ltd.</b></h6><br><br>
+                        <ul style="list-style-type:circle;">
+                            <li>Provide first line support to customers for infrastructure and product related requests.</li>
+                            <li>Answer calls and emails in line with client SLA’s and team KPI’s.</li>
+                            <li>Provide support for order management and product pre-sales.</li>
+                            <li>Investigate, resolve and / or escalate issues to Tier 2.</li>
+                            <li>Working with internal systems, document each call via a client ticket system.</li>
+                            <li>Contribute to creating and updating a support knowledge base.</li>
+                            <li>Maintain and support quality and statistical standards at all times.</li>
+                            <li>Working as part of a team, work to both individual and group targets.</li>
+                            <li>Provide excellent customer technical support, first call resolution with each case.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -83,7 +108,7 @@
                 <span class="bg-danger text-white text-justify">Projects :</span><hr class="bg-danger">
                 <div class="pb-3 row ptojects">
                     <div class="container-fluid">
-                        <span>National College of Ireland</span>
+                        <h5><b>National College of Ireland</b></h5>
                         <ul style="list-style-type:circle;">
                             <li>Java: RESTful bank service web API using NetBeans, Glassfish and MySQL Workbench.</li>
                             <li>Designing a graphical model of an Object-Oriented Software System using UML.</li>
@@ -91,7 +116,7 @@
                         </ul>
                     </div>
                     <div class="container-fluid">
-                        <span>Technological University Dublin</span>
+                        <h5><b>Technological University Dublin</b></h5></span>
                         <ul style="list-style-type:circle;">
                             <li>Java: Program that allows the user to draw 5 geometric figures on the screen.</li>
                             <li>Java: RXN Chain reaction game.</li>
@@ -120,8 +145,8 @@
                                 </span>tsvetkov.soft.dev
                             </p>
                             <h5 class="pl-5 pb-3 pt-5">Find me also on: </h5>
-                            <div class="container pt-2">
-                                <a class="pl-5 pr-3" href="https://ie.linkedin.com/in/tsvetkovdimitar/" target="_blank">
+                            <div class="container pl-5 pt-2">
+                                <a class="pl-0 pr-3" href="https://ie.linkedin.com/in/tsvetkovdimitar/" target="_blank">
                                     <img src="images/social/linkedin-logo.png" style="width:42px;height:42px;border:0;">
                                 </a>
                                 <a class="pl-0 pr-3" href="https://github.com/tsvetkovdimitar/" target="_blank">

@@ -22,15 +22,17 @@
     font-size: 1.225em;
 
 }
-.education-text{
+
+li{
 
     color: black;
-    line-height: 1.6;
-    text-indent: 50px;
+    line-height: 1.2;
+    text-indent: 5px;
     text-align: justify;
-    font-size: 1.225em;
+    font-size: 1.125em;
 
 }
+
 .my-name-at-the-top-left-of-the-page{
 
     font-size: 1.325em;
@@ -57,39 +59,13 @@ ins:hover, ins:active {
     margin-top: 200%;
 
 }
-#Education span{
+#Education span, #Contact span, #Projects span, #Experience span{
 
     padding: 5px 15px 5px 15px;
 
 }
 
-#Contact span{
-
-    padding: 5px 15px 5px 15px;
-
-}
-
-#Projects span{
-
-    padding: 5px 15px 5px 15px;
-
-}
-
-#Education hr{
-
-    border-width: 2px;
-    margin-top: 7px;
-
-}
-
-#Contact hr{
-
-    border-width: 2px;
-    margin-top: 7px;
-
-}
-
-#Projects hr{
+#Education hr, #Contact hr, #Projects hr, #Experience hr{
 
     border-width: 2px;
     margin-top: 7px;
@@ -104,4 +80,8 @@ ins:hover, ins:active {
     left: 0;
     height: 60px;
 
+}
+
+*:focus {
+    outline: 0 !important;
 }
