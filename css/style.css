@@ -1,4 +1,4 @@
-/*Making the top section of the page more responsive*/
+/*Making the top section more responsive on tablet screens*/
 .top-section-left-part{
 
     float: right;
@@ -13,27 +13,30 @@
     position: relative;
     float: inherit;
 }
+
 .pitch-text{
 
     color: black;
-    line-height: 1.6;
+    line-height: 1.4;
     text-indent: 50px;
     text-align: justify;
-    font-size: 1.225em;
+    font-size: 1.110em;
+    letter-spacing: 1px;
+    white-space: normal;
 
 }
 
-p, li {
-    word-spacing: 2px;
-}
 
-li{
+
+
+.education, .experience, .projects{
 
     color: black;
-    line-height: 1.2;
+    line-height: 2.1;
     text-indent: 5px;
     text-align: justify;
     font-size: 1.125em;
+    word-spacing: 1px;
 
 }
 
@@ -43,6 +46,25 @@ li{
     text-align: center;
 
 }
+
+@media only screen and (max-width: 60em) {
+    #Education h6 {
+
+        font-size: 1.125em;
+
+    }
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    div.experience, div.projects, div.education, div.pitch-text {
+        font-size: 13px;
+        word-break: break-all;
+        letter-spacing: normal;
+        white-space: normal;
+
+    }
+}
+
 .dropdown-menu-items{
 
     position: relative;
@@ -50,14 +72,18 @@ li{
     right: 50%;
 
 }
+
 .borderlist-in-dropdown-menu {
 
     list-style-position:inside;
     border: 1px solid black;
 }
+
 ins:hover, ins:active {
+
     background-color: darkslategrey;
 }
+
 £Education{
 
     margin-top: 200%;
@@ -101,8 +127,6 @@ ins:hover, ins:active {
     border-radius: 50px;
 
 }
-
-
 
 *:focus {
     outline: 0 !important;
