@@ -102,9 +102,7 @@ ins:hover, ins:active {
 
 }
 
-#myBtn:hover {
-    background-color: #555;
-}
+
 
 *:focus {
     outline: 0 !important;

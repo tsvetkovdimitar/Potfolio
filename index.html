@@ -159,13 +159,16 @@
                         </div>
                         <div class="col-md-6 contact-form">
                             <h5>Or message me: </h5>
-                            <form id="contact-form" method="post" class="form-group"action="mailto:tsvetkovdimitar@gmail.com" method="post" enctype="text/plain">
-                                <input class="form-control" type="text" name="name" id="name" placeholder="* Your name:" required><br>
-                                <input class="form-control" type="email" name="name" id="email" placeholder="* Your email" require><br><br>
-                                <input class="form-control" type="text" id="sub" name="subject" placeholder="The subject"><br>
-                                <textarea class="form-control" type="text" id="text-area" name="message" rows="5" cols="15" placeholder="*Your message" required></textarea>
+                            <form id="contact-form" method="post" class="form form-group" enctype="text/plain">
+                                <input class="form-control" type="text" name="name" id="input-name" placeholder="* Your name:" oninput="validateForm()">
+                                <div id="name_error" class="form-error"></div><br>
+                                <input class="form-control" type="email" name="email" id="input-email" placeholder="* Your email" oninput="validateForm()">
+                                <div id="email_error" class="form-error"></div><br><br>
+                                <input class="form-control" type="text" id="sub" name="input-subject" placeholder="The subject"><br>
+                                <textarea class="form-control pb-3" type="text" id="input-message" name="input-message" rows="5" cols="15" placeholder="*Your message" oninput="validateForm()"></textarea>
+                                <div id="message_error" class="form-error"></div>
+                            <button class="btn btn-block btn-dark send-button">Send</button><br>
                             </form>
-                            <button class="btn btn-block btn-dark">Send</button>
                         </div>
                     </div>
             </div>
