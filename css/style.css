@@ -23,20 +23,19 @@
     font-size: 1.110em;
     letter-spacing: 1px;
     white-space: normal;
+    word-spacing: normal;
 
 }
-
-
-
 
 .education, .experience, .projects{
 
     color: black;
     line-height: 2.1;
-    text-indent: 5px;
     text-align: justify;
     font-size: 1.125em;
-    word-spacing: 1px;
+    letter-spacing: 1px;
+    white-space: normal;
+    word-spacing: normal;
 
 }
 
@@ -48,6 +47,7 @@
 }
 
 @media only screen and (max-width: 60em) {
+
     #Education h6 {
 
         font-size: 1.125em;
@@ -56,11 +56,13 @@
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
+
     div.experience, div.projects, div.education, div.pitch-text {
+
         font-size: 13px;
-        word-break: break-all;
         letter-spacing: normal;
         white-space: normal;
+        word-spacing: normal;
 
     }
 }
@@ -129,5 +131,7 @@ ins:hover, ins:active {
 }
 
 *:focus {
+
     outline: 0 !important;
+
 }
