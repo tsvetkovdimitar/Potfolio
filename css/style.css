@@ -135,3 +135,46 @@ ins:hover, ins:active {
     outline: 0 !important;
 
 }
+
+/*Thank you page styling*/
+
+.thank-you-message{
+
+    height: 200px;
+    width: 400px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align: justify;
+    letter-spacing: 1px;
+    white-space: normal;
+    word-spacing: normal;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    div.thank-you-message{
+
+        font-size: 15px;
+        letter-spacing: normal;
+        white-space: normal;
+        word-spacing: normal;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    h2, h3{
+
+        font-size: 20px;
+        letter-spacing: normal;
+        white-space: normal;
+        word-spacing: normal;
+
+    }
+}
