@@ -152,14 +152,11 @@
                         </div>
                         <div class="col-md-6 contact-form">
                             <h5>Or message me: </h5>
-                            <form id="contact-form" role="form" method="POST" action="https://formspree.io/tsvetkovdimitar@gmail.com" class="form form-group" enctype="text/plain">
-                                <input class="form-control" type="text" name="name" id="input-name" placeholder="Your name: *" required="required">
-                                <div id="name_error" class="form-error"></div><br>
-                                <input class="form-control" type="email" name="email" id="input-email" placeholder="Your email: *" required="required">
-                                <div id="email_error" class="form-error"></div><br><br>
-                                <input class="form-control" type="text" id="sub" name="input-subject" placeholder="The subject"><br>
-                                <textarea class="form-control pb-3" type="text" id="input-message" name="input-message" rows="5" cols="15" placeholder="Your message: *" required="required"></textarea>
-                                <div id="message_error" class="form-error"></div>
+                            <form method="POST" action="https://formspree.io/tsvetkovdimitar@gmail.com" class="form form-group">
+                                <input class="form-control" type="text" name="name" id="input-name" placeholder="Your name: *" required="required"><br>
+                                <input class="form-control" type="email" name="email" placeholder="Your email: *" required="required"><br>
+                                <input class="form-control" type="text" name="subject" placeholder="The subject"><br>
+                                <textarea class="form-control pb-3" type="text" name="message" placeholder="Your message: *" rows="5" cols="15" required="required"></textarea>
                                 <input class="btn btn-block btn-dark send-button" type="submit" value="Submit">
                                 <input type="hidden" name="_next" value="contact-form-thank-you.html">
                             </form>
