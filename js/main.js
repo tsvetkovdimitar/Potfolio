@@ -43,25 +43,4 @@ function topFunction() {
 
 //Form Validation
 
-var inputName = document.getElementById('input-name');
-var inputEmail = document.getElementById('input-email');
-var inputMessage = document.getElementById('input-message');
-var button = document.querySelector('.send-button');
-var regEx = /\S+@\S+\.\S+/;
-var form = document.querySelector('.form');
 
-function validateForm(){
-
-    if (inputName.value.trim() !== "" && regEx.test(inputEmail.value) && inputMessage.value.trim() !== "") {
-        button.style.backgroundColor = '#0d0d0d';
-        button.disabled = false;
-    } else {
-        button.style.backgroundColor = '#404040';
-        button.disabled = true;
-    }
-}
-
-form.addEventListener('submit', function(event) {
-    event.preventDefault();
-    console.log('Submitted');
-});
