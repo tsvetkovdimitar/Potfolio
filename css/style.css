@@ -130,11 +130,6 @@ ins:hover, ins:active {
 
 }
 
-form input[type="submit"]:hover,
-form input[type="submit"]:focus {
-    opacity: .7;
-}
-
 *:focus {
 
     outline: 0 !important;
